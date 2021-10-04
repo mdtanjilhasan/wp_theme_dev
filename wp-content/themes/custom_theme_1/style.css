@@ -1,0 +1,77 @@
+/*
+Theme Name: Medilab
+Description: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+Author: Md. Tanjil Hasan
+Version: 1.00
+*/
+
+.current_page_parent>a,
+.current_page_parent>a:hover,
+.current_page_parent>a:focus,
+.current-menu-item>a,
+.current-menu-item>a:hover,
+.current-menu-item>a:focus {
+    color: #1977cc!important;
+    border-color: #1977cc!important;
+}
+.pagination_control>a,.pagination_control>span{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.comment-form textarea,
+.comment-form input[type="text"]{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.comment-form input[type="submit"]{
+    border: unset;
+    background: #1977cc;
+    color: #fff;
+    border-radius: 50px;
+    padding: 8px 25px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 14px;
+    display: inline-block;
+}
+.main_menu_ul>li{
+    position: relative;
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.sub-menu{
+    position: absolute;
+    display: block!important;
+    opacity: 0;
+    visibility: hidden;
+    transition: 500ms;
+}
+.sub-menu>li{
+}
+.main_menu_ul>li:hover .sub-menu{
+    opacity: 1;
+    visibility: visible;
+}
+.category-name {
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid #ddd;
+    margin: 15px 15px 30px 15px;
+    padding: 0 0 15px 0;
+    text-transform: capitalize;
+}
